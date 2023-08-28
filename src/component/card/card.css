@@ -1,0 +1,51 @@
+.c3{
+  display: flex;
+  border-radius: 6px;
+  color: #c5c3c3;
+  padding: 1rem;
+  overflow-x: auto;
+  position: relative;
+}
+
+.c3::-webkit-scrollbar {
+  display: none;
+}
+
+.c1 {
+  flex: 1 0 250px;
+  box-shadow: 0 1px 1rem -4px #000;
+  background: #fff;
+  margin: 1rem;
+  overflow: hidden;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+
+}
+
+
+
+.c1:hover {
+  box-shadow: 0 4px 1rem -4px #000;
+  transform: translateY(-5px);
+}
+
+.c2{
+  padding: 1rem;
+}
+
+@media screen and (max-width: 625px) {
+  .container {
+    width: 100%    
+  }
+
+  .c3 {
+    padding: .5rem;
+  }
+
+  .c1 {
+    margin: .5rem;
+    max-width: 25vh;
+    max-height: 40vh;
+  }
+}
