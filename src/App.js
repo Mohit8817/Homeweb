@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter  basename='Homewebsite'>
+      <BrowserRouter>
         <Header />
         <Dashboard />
         <Residencies />
