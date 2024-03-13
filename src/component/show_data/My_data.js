@@ -9,9 +9,7 @@ class MyData extends Component {
         super(props)
         this.state = { data: [] };
         console.log("constructor");
-
-        
-       
+      
 
     }
 

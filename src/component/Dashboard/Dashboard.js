@@ -41,7 +41,7 @@ class Dashboard extends Component {
                                 <motion.h1
                                     animate={{ x: [], opacity: 1, scale: 1 }}
                                     transition={{ duration: 1, delay: 0.2, }}
-                                    initial={{ opacity: 0, scale: 0.5 }} >
+                                    initial={{ opacity: 0, scale: 0.4 }} >
 
                                     <img src="./images/hero-image.png" alt="" className='homeimg' />
                                 </motion.h1>
