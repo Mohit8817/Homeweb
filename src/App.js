@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter  basename='MyStore'>
+      <BrowserRouter  basename='Homewebsite'>
         <Header />
         <Dashboard />
         <Residencies />

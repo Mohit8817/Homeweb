@@ -97,32 +97,32 @@ class Getintouch extends Component {
                                 <div class="row m-2">
                                     <div class="form-group col-md-6 mt-2">
                                         <label>First Name*</label>
-                                        <input type="name" name='FULL_NAME' class="form-control" placeholder="first name" onChange={this.Full_name} />
+                                        <input type="name" name='FULL_NAME' class="form-control" placeholder="first name" onChange={this.Full_name} required />
                                     </div>
                                     <div class="form-group col-md-6 mt-2">
                                         <label>Last Name*</label>
-                                        <input type="name" name='LAST_NAME' class="form-control" placeholder="last name" onChange={this.Last_name} />
+                                        <input type="name" name='LAST_NAME' class="form-control" placeholder="last name" onChange={this.Last_name} required/>
                                     </div>
                                 </div>
                                 <div class="row m-2">
                                     <div class="form-group col-md-6 mt-2">
                                         <label>Email*</label>
-                                        <input type="email" name='EMAIL' class="form-control" id="inputEmail4" placeholder="Email" onChange={this.Email_add} />
+                                        <input type="email" name='EMAIL' class="form-control" id="inputEmail4" placeholder="Email" onChange={this.Email_add} required/>
                                     </div>
                                     <div class="form-group col-md-6 mt-2">
                                         <label htmlfor="inputPassword4">Password*</label>
-                                        <input type="password" name='PASSWORD' class="form-control" id="inputPassword4" placeholder="Password" onChange={this.P_word} />
+                                        <input type="password" name='PASSWORD' class="form-control" id="inputPassword4" placeholder="Password" onChange={this.P_word} required />
                                     </div>
                                 </div>
                                 <div class="form-group m-3">
                                     <label htmlfor="inputAddress">Address</label>
-                                    <input type="text" name='ADDRESS' class="form-control" id="inputAddress" placeholder="1234 Main St" onChange={this.Address} />
+                                    <input type="text" name='ADDRESS' class="form-control" id="inputAddress" placeholder="1234 Main St" onChange={this.Address} required />
                                 </div>
 
                                 <div class="form-group m-3">
                                     <div class="form-group ">
                                         <label htmlfor="inputCity">City</label>
-                                        <input type="text" name='CITY' class="form-control" id="inputCity" onChange={this.City} />
+                                        <input type="text" name='CITY' class="form-control" id="inputCity" onChange={this.City} required />
                                     </div>
                                     <div class="form-group">
                                         <label htmlfor="inputState">State</label>
@@ -147,7 +147,7 @@ class Getintouch extends Component {
                                 </div>
                                 <div class="form-group m-3">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck" />
+                                        <input class="form-check-input" type="checkbox" id="gridCheck" required />
                                         <label class="form-check-label" htmlfor="gridCheck">
                                             Check me out
                                         </label>
