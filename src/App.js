@@ -5,7 +5,7 @@ import Dashboard from './component/Dashboard/Dashboard';
 import Header from './component/Header/Header';
 import Residencies from './component/Residencies/Residencies';
 import Value from './component/Value/Value';
-import Cards from './component/card/cards';
+// import Cards from './component/card/cards';
 import Getintouch from './component/Get_in_touch/Getintouch';
 import Contact from './component/contact/Contact';
 import GetStart from './component/getstart/Get_start';
@@ -27,7 +27,7 @@ function App() {
         <Dashboard />
         <Residencies />
         <Value />
-        <Cards />
+        {/* <Cards /> */}
         <Getintouch />
         <MyData />
         <Contact />

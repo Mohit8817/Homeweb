@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from '../images/logo.png';
 
 
 class Header extends Component {
@@ -11,7 +11,7 @@ class Header extends Component {
                     <div className="row" style={{ backgroundColor: "black" }}>
                         <div className="col-md-6">
                             <div className='text-lg-start text-sm-center text-center'>
-                                <Link to="/Dashboard" > <img src="./images/logo.png" alt="" className=' m-4' /></Link>
+                                <Link to="/Dashboard" > <img src={logo}  alt="" className=' m-4' /></Link>
                             </div>
                         </div>
                         <div className="col-md-6">

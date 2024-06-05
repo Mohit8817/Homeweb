@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import valueimg from "../images/value.png"
 
 class Value extends Component {
     render() {
@@ -10,7 +11,7 @@ class Value extends Component {
                         <div className="col-md-6">
                             <div data-aos="fade-left"                              
                                 data-aos-duration="3000">
-                                <img src="./images/value.png" alt="" className='valueimg'/>
+                                <img src={valueimg} alt="" className='valueimg'/>
                             </div>
                         </div>
                         <div className="col-md-6 mt-5">

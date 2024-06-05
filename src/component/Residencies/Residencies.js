@@ -4,7 +4,7 @@ class Residencies extends Component {
         super(props)
         this.state = [
             {
-                img: "images/r1.png",
+                img: "r1.png",
                 name: "Aliva Priva jardin City",
                 dis: "Pahlawan street XVII no.215 Cinangka sawangan sepok jawa Barat",
             },

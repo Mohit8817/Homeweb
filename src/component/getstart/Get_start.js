@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import images from "../images/logo2.png"
 
 class GetStart extends Component {
     render() {
@@ -25,7 +26,7 @@ class GetStart extends Component {
                     <div className="row mt-5">
                         <div className="col-lg-8">
                             <div className='text-lg-start text-sm-center text-center'>
-                                <img src="./images/logo2.png" alt="" />
+                                <img src={images} alt="" />
                                 <p>Our Vision is to make all people <br /> the best place to llive for them.</p>
                             </div>
                         </div>

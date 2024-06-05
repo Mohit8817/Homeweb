@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import imgs from "../images/contact.jpg"
 
 class Contact extends Component {
 
@@ -72,7 +72,7 @@ class Contact extends Component {
                         <div className="col-md-5 mt-5">
                             <div data-aos="zoom-out"
                                 data-aos-duration="2000">
-                                <img src="./images/contact.jpg" alt="" className='contactimg' />
+                                <img src={imgs} alt="" className='contactimg' />
                             </div>
                         </div>
                     </div>

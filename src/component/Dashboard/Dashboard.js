@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import CountUp from 'react-countup';
 import React, { Component } from 'react';
+import heroImage from '../images/hero-image.png';
 
 
 class Dashboard extends Component {
@@ -42,8 +43,8 @@ class Dashboard extends Component {
                                     animate={{ x: [], opacity: 1, scale: 1 }}
                                     transition={{ duration: 1, delay: 0.2, }}
                                     initial={{ opacity: 0, scale: 0.4 }} >
-
-                                    <img src="./images/hero-image.png" alt="" className='homeimg' />
+                                    <img src={heroImage} alt="Hero" className='homeimg' />
+                                    {/* <img src="/images/hero-image.png" alt="" className='homeimg' /> */}
                                 </motion.h1>
                             </div>
                         </div>
