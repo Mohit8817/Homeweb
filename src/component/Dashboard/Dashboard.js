@@ -2,7 +2,10 @@ import { motion } from 'framer-motion';
 import CountUp from 'react-countup';
 import React, { Component } from 'react';
 import heroImage from '../images/hero-image.png';
-
+import toweri from '../images/tower.png'
+import equenimg from '../images/equinix.png'
+import towersec from '../images/realty.png'
+import lastimg from '../images/prologis.png'
 
 class Dashboard extends Component {
     render() {
@@ -60,16 +63,16 @@ class Dashboard extends Component {
 
                     <div className="row">
                         <div className="col-lg-3">
-                            <img src="./images/tower.png" alt="" className='brandimg' />
+                            <img src={toweri} alt="" className='brandimg' />
                         </div>
                         <div className="col-lg-3">
-                            <img src="./images/equinix.png" alt="" className='brandimg' />
+                            <img src={equenimg} alt="" className='brandimg' />
                         </div>
                         <div className="col-lg-3">
-                            <img src="./images/tower.png" alt="" className='brandimg' />
+                            <img src={towersec} alt="" className='brandimg' />
                         </div>
                         <div className="col-lg-3">
-                            <img src="./images/realty.png" alt="" className='brandimg' />
+                            <img src={lastimg} alt="" className='brandimg' />
                         </div>
                     </div>
                 </div>
