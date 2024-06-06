@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Mohit8817/Homeweb.git/static/css/main.1d3bd0ba.css",
+    "main.js": "/Mohit8817/Homeweb.git/static/js/main.abc17b7d.js",
+    "static/js/787.452c0812.chunk.js": "/Mohit8817/Homeweb.git/static/js/787.452c0812.chunk.js",
+    "static/media/hero-image.png": "/Mohit8817/Homeweb.git/static/media/hero-image.eade2b5f1b7c166cb16c.png",
+    "static/media/value.png": "/Mohit8817/Homeweb.git/static/media/value.b619962bdea2621cbd6b.png",
+    "static/media/contact.jpg": "/Mohit8817/Homeweb.git/static/media/contact.5e0194664deddac4b915.jpg",
+    "index.html": "/Mohit8817/Homeweb.git/index.html",
+    "main.1d3bd0ba.css.map": "/Mohit8817/Homeweb.git/static/css/main.1d3bd0ba.css.map",
+    "main.abc17b7d.js.map": "/Mohit8817/Homeweb.git/static/js/main.abc17b7d.js.map",
+    "787.452c0812.chunk.js.map": "/Mohit8817/Homeweb.git/static/js/787.452c0812.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d3bd0ba.css",
+    "static/js/main.abc17b7d.js"
+  ]
+}
